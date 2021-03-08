@@ -55,6 +55,14 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
+/* Home Page */
+.offer-block {
+    background-image: linear-gradient(to right,rgba(30, 53, 57, 0.8), rgba(30, 53, 57, 0.5))
+}
+
+.offer-heading span {
+    display: block;
+}
 
 /* -------------------------------- Media Queries */
 
