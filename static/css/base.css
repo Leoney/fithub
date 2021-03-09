@@ -55,7 +55,12 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
-/* Home Page */
+
+/* --------------------------------Home Page */
+.delivery-banner{
+    background-color:rgba(30, 53, 57, 0.8);
+}
+
 .offer-block {
     background-image: linear-gradient(to right,rgba(30, 53, 57, 0.8), rgba(30, 53, 57, 0.5))
 }
