@@ -1,0 +1,758 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Whey protein",
+            "description": "Whey protein is produced from whey, which provides the full range of essential amino acids. If you are looking for high quality protein powder for optimal recovery and muscle growth, then your search is over.",
+            "price": 12.99,
+            "category": 1,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "Beef protein",
+            "description": "An alternative to traditional whey protein, if you’re following a strict paleo diet, or if you’re lactose intolerant.",
+            "price": 39.99,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001730010",
+            "name": "Egg protein",
+            "description": "Egg white powder is a popular form of protein powder since it’s packed with protein, is fat-free, and zero sugar — delivering you the benefits of a protein shake without unnecessary calories. For this reason, egg white powder is a popular choice to help you achieve any fitness goal.",
+            "price": 24.99,
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Vegan protein",
+            "description": "Made from an exclusive blend of 5 plant-based sources. It’s ideal if you’re training on a meat-free diet, whether you’re a beginner or a regular, or if you’re just looking for some alternative protein sources to supplement your regular diet.",
+            "price": 14.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002111605",
+            "name": "Diet protein",
+            "description": "Contains less than 4g of carbohydrate per serving with all the protein, as well as added glucomannan contributing to weight loss.",
+            "price": 23.99,
+            "category": 1,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "Vitamin C Tablets",
+            "description": "Vitamin C is an essential water-soluble vitamin that’s involved in a huge range of vital functions in the body, making our Vitamin C Tablets ideal for hitting your daily requirements — helping you to feel your best every day.1",
+            "price": 6.99,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "Multivitamin",
+            "description": "Vitamins are essential to maintaining overall health and wellbeing, performing many important functions in the body — making it vital you hit your recommended daily requirements.",
+            "price": 3.99,
+            "category": 2,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002601115",
+            "name": "Essential Omega-3",
+            "description": "Omega-3 is an essential fatty acid that your body can’t make itself, so you have to get from your diet. It’s found naturally in fish oil — meaning it can be difficult to get enough of it from what you eat alone.",
+            "price": 6.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002690715",
+            "name": "Omega 3-6-9",
+            "description": "Omega 3-6-9 contains EPA (eicosapentaenoic acid) and DHA (docosahexaenoic acid) — both support your fitness goals, alongside your general wellbeing.1,2 As your body can’t make these on its own you have to get them from your diet, but it can be difficult to get enough from what you eat alone.",
+            "price": 10.99,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002701115",
+            "name": "Zinc & Magnesium Capsules",
+            "description": "Zinc and magnesium are essential minerals with a wide range of roles within your body — making this supplement the ideal partner to support your training. Plus, we’ve now added vitamin B6 to our Zinc & Magnesium capsules, great for supporting your immune system and keeping fatigue at bay.",
+            "price": 5.99,
+            "category": 2,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002761055",
+            "name": "Cod Liver Oil Softgels",
+            "description": "Cod Liver Oil is derived from the liver of cod (gadidae). It’s a rich source of the omega-3 essential fatty acids EPA and DHA, as well as being a good source of vitamin D and vitamin A — boasting great health benefits for everyday wellbeing.",
+            "price": 5.99,
+            "category": 2,
+            "rating": 4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002820069",
+            "name": "Calcium & Magnesium Tablets",
+            "description": "Calcium & Magnesium tablets are an easy way to make sure you hit your daily recommended amount of calcium and magnesium.",
+            "price": 5.99,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002820147",
+            "name": "L-Carnitine Tablets",
+            "description": "L-Carnitine is an amino acid that is found naturally in the body, and is formed from the amino acids lysine and methionine. Our high-strength l-carnitine tablets deliver 1000mg per serving, for a super-convenient and powerful boost to your amino acid intake.",
+            "price": 20,
+            "category": 3,
+            "rating": 3.2,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002910572",
+            "name": "Creatine Monohydrate Tablets",
+            "description": "Our creatine monohydrate tablets are a super-convenient way to get the scientifically proven benefits of creatine, helping you to improve your performance workout after workout.",
+            "price": 14.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002990740",
+            "name": "HMB Tablets",
+            "description": "Beta-Hydroxy Beta-Methylbutyrate, or more commonly known by its abbreviation HMB, is a metabolite of the branched-chain amino acid leucine. Growing in popularity since the 1990s, HMB is now widely used in many ‘all-in-one’ products — helping to support your fitness goals.",
+            "price": 8.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003050248",
+            "name": "L-Glutamine Tablets",
+            "description": "One of the most popular amino acids, glutamine naturally occurs in protein, which helps to build and repair new muscle.1 So whether you’re lifting weights or powering through cardio, our convenient L-Glutamine Tablets are great for getting the glutamine you need.",
+            "price": 9.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003070787",
+            "name": "Essential BCAA Tablets",
+            "description": "The essential amino acid supplement, containing an optimal 2:1:1 ratio of leucine, isoleucine, and valine. Each of these naturally occur in protein, which helps to build and repair new muscle.",
+            "price": 10.99,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003090182",
+            "name": "Creatine Monohydrate Powder",
+            "description": "Creatine monohydrate powder is great for all your fitness goals.",
+            "price": 15.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003090186",
+            "name": "Essential BCAA 4:1:1",
+            "description": "The ultimate branched-chain amino acid formula, containing an optimal 4:1:1 ratio of leucine, isoleucine, and valine. These naturally occur in protein, which helps to build and repair new muscle1 — so you can be at your best session after session.",
+            "price": 17.99,
+            "category": 3,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003161326",
+            "name": "Beta-Alanine Tablets",
+            "description": "Beta alanine is a non-essential amino acid and the only naturally occurring beta amino acid. It’s perfect for anyone involved in sports that require explosive actions such as boxing, weight training, or circuit training, as well as anyone doing endurance exercise over a prolonged period.",
+            "price": 20.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003230723",
+            "name": "Sports Bra",
+            "description": "Mid-level support sports bra.",
+            "price": 28.99,
+            "category": 4,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003270936",
+            "name": "Leggings",
+            "description": "High waisted leggings",
+            "price": 32.99,
+            "category": 4,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003360384",
+            "name": "Hoodie- Carbon Acidwash",
+            "description": "Cropped hoodie",
+            "price": 29.99,
+            "category": 4,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003440111",
+            "name": "Armhole Tank- Storm",
+            "description": "Training tank.",
+            "price": 26.00,
+            "category": 4,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003540313",
+            "name": "Crop T-Shirt - Carbon",
+            "description": "Cropped cotton t-shirt",
+            "price": 24.99,
+            "category": 4,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003560513",
+            "name": "Velocity Gilet",
+            "description": "Water repellant gilet.",
+            "price": 41.99,
+            "category": 4,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003560948",
+            "name": "1/4 Zip Top- Black",
+            "description": "1/4 zip top.",
+            "price": 44.99,
+            "category": 4,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003570628",
+            "name": "Shorts",
+            "description": "Women's booty shorts.",
+            "price": 22.99,
+            "category": 4,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003620308",
+            "name": "Open Back Crop Top",
+            "description": "Women’s cropped, Dry-Tech long-sleeved top",
+            "price": 30.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003690115",
+            "name": "Hoodie",
+            "description": "Regular fit hoodie",
+            "price": 36.99,
+            "category": 5,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003690116",
+            "name": "Tank",
+            "description": "Drop armhole tank.",
+            "price": 26.99,
+            "category": 5,
+            "rating": 4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003780391",
+            "name": " T-Shirt",
+            "description": "T-Shirt",
+            "price": 28.99,
+            "category": 5,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003790542",
+            "name": "Tank ",
+            "description": "Tank",
+            "price": 26.99,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003831225",
+            "name": "Joggers",
+            "description": "Slim fit joggers",
+            "price": 30.99,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003861402",
+            "name": "Men's Washed T-Shirt",
+            "description": "Regular fit t-shirt",
+            "price": 26.99,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003910638",
+            "name": "Velocity 1/4 Zip",
+            "description": "1/4 zip top",
+            "price": 23.99,
+            "category": 5,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003950574",
+            "name": "Velocity Track Top",
+            "description": "Regular fit track top.",
+            "price": 21.99,
+            "category": 5,
+            "rating": 4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003950576",
+            "name": "Velocity Gilet",
+            "description": "Water repellent gilet",
+            "price": 60.99,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960062",
+            "name": "2 in 1 Short",
+            "description": "2 in 1 Short",
+            "price": 41.99,
+            "category": 5,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960682",
+            "name": "Sweatshorts",
+            "description": "Sweatshorts.",
+            "price": 31.99,
+            "category": 5,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960775",
+            "name": "Booty Band Bundle",
+            "description": "Take your workouts to the next level with our Booty Band Bundle, featuring our light, medium and heavyweight booty bands.",
+            "price": 35.99,
+            "category": 7,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003990736",
+            "name": "Resistance Band Set",
+            "description": "Resistance band set",
+            "price": 28.99,
+            "category": 7,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003990746",
+            "name": "Yoga Mat",
+            "description": "Foam yoga mat ",
+            "price": 25.99,
+            "category": 7,
+            "rating": 4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004111503",
+            "name": "Women's Lifting Gloves",
+            "description": "Women's Lifting Gloves.",
+            "price": 10.99,
+            "category": 7,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004230059",
+            "name": "Running Waistband ",
+            "description": "Adjustable phone holder for hands-free training",
+            "price": 10.00,
+            "category": 7,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004310089",
+            "name": "Yoga Block",
+            "description": "Lightweight, non-slip yoga block",
+            "price": 12.99,
+            "category": 7,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004610254",
+            "name": "Backpack",
+            "description": "A classic design with plenty of storage.",
+            "price": 18.99,
+            "category": 7,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004650050",
+            "name": "Yoga Bag",
+            "description": "Bag with yoga mat storage",
+            "price": 24.99,
+            "category": 7,
+            "rating": 3.9,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004821375",
+            "name": "Holdall - Black",
+            "description": "The everyday gym holdall, perfect for all your kit.",
+            "price": 20.99,
+            "category": 7,
+            "rating": 4,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004900522",
+            "name": "Snapback",
+            "description": "Stay cool and covered during any workout",
+            "price": 16.99,
+            "category": 7,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004910158",
+            "name": "Women's Full Coverage Lifting Gloves",
+            "description": "Full-length lifting gloves",
+            "price": 19.99,
+            "category": 7,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004910477",
+            "name": "Knitted Bobble Hat",
+            "description": "New Era bobble hat",
+            "price": 18.99,
+            "category": 7,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004940703",
+            "name": "Ankle Socks",
+            "description": "Ankle Socks",
+            "price": 3.99,
+            "category": 7,
+            "rating": 3.7,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004991006",
+            "name": "Men's Socks",
+            "description": "Men's Socks",
+            "price": 6.99,
+            "category": 7,
+            "rating": 5,
+            "image_url": "",
+            "image": "noimage.png"
+        }
+    }
+]
