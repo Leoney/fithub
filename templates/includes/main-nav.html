@@ -11,9 +11,9 @@
                 Nutritions
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="nutritions-link">
-                <a href="" class="dropdown-item">Protein</a>
-                <a href="" class="dropdown-item">Vitamins &amp; Minerals</a>
-                <a href="" class="dropdown-item">Amino Acids</a>
+                <a href="{% url 'products' %}?category=protein" class="dropdown-item">Protein</a>
+                <a href="{% url 'products' %}?category=vitamins_minerals" class="dropdown-item">Vitamins &amp; Minerals</a>
+                <a href="{% url 'products' %}?category=amino_acids" class="dropdown-item">Amino Acids</a>
             </div>
         </li>
 
@@ -22,10 +22,10 @@
                 Clothing &amp; Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Women</a>
-                <a href="" class="dropdown-item">Men</a>
-                <a href="" class="dropdown-item">Outlet</a>
-                <a href="" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=women" class="dropdown-item">Women</a>
+                <a href="{% url 'products' %}?category=men" class="dropdown-item">Men</a>
+                <a href="{% url 'products' %}?category=outlet" class="dropdown-item">Outlet</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
             </div>
         </li>
     </ul>
