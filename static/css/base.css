@@ -114,6 +114,10 @@ input[name='q']::placeholder {
 .offer-heading span {
     display: block;
 }
+/* --------------------------------Product Details Page */
+.best-offer-badge {
+    height: 1.25rem;
+}
 
 /* Allauth form formatting */
 

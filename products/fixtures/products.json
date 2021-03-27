@@ -754,5 +754,116 @@
             "image_url": "",
             "image": "noimage.png"
         }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004991162",
+            "name": "4 Weeks Exercise Plan",
+            "description": "4 Weeks Exercise Plan",
+            "price": 100,
+            "category": 8,
+            "rating": 4.7,
+            "image": "fitness-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005000046",
+            "name": "8 Weeks Exercise Plan",
+            "description": "4 Weeks Exercise Plan",
+            "price": 170,
+            "category": 8,
+            "rating": 4.8,
+            "image": "fitness-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005070254",
+            "name": "12 Weeks Exercise Plan",
+            "description": "12 Weeks Exercise Plan",
+            "price": 250,
+            "category": 8,
+            "rating": 4.9,
+            "image": "fitness-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005071145",
+            "name": "4 Weeks Nutrition Plan",
+            "description": "4 Weeks Nutrition Plan",
+            "price": 100,
+            "category": 9,
+            "image": "nutrition-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005140282",
+            "name": "8 Weeks Nutrition Plan",
+            "description": "8 Weeks Nutrition Plan",
+            "price": 170,
+            "category": 9,
+            "image": "nutrition-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005200166",
+            "name": "12 Weeks Nutrition Plan",
+            "description": "12 Weeks Nutrition Plan",
+            "price": 250,
+            "category": 9,
+            "image": "nutrition-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005210241",
+            "name": "4 Weeks Exercise & Nutrition Plan",
+            "description": "4 Weeks Exercise & Nutrition Plan",
+            "price": 170,
+            "category": 10,
+            "image": "exc-nutr-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005280104",
+            "name": "8 Weeks Exercise & Nutrition Plan",
+            "description": "8 Weeks Exercise & Nutrition Plan",
+            "price": 300,
+            "category": 10,
+             "image": "exc-nutr-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005310360",
+            "name": "12 Weeks Exercise & Nutrition Plan",
+            "description": "12 Weeks Exercise & Nutrition Plan",
+            "price": 400,
+            "category": 10,
+             "image": "exc-nutr-unsplash.jpg"
+        }
     }
 ]

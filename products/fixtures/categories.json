@@ -54,5 +54,29 @@
             "name": "accessories",
             "friendly_name": "Accessories"
         }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "exercise_plans",
+            "friendly_name": "Exercise Plans"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "nutrition_plans",
+            "friendly_name": "Nutrition Plans"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "exercise_nutrition_plans",
+            "friendly_name": "Nutrition & Exercise Plans"
+        }
     }
 ]

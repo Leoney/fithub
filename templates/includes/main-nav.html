@@ -1,24 +1,34 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="programs-link" aria-haspopup="true" aria-expanded="false">
-                Programs &amp; Consultations
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="services-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="services-link">
+                <a href="{% url 'products' %}?category=exercise_plans" class="dropdown-item">Exercise Plans</a>
+                <a href="{% url 'products' %}?category=nutrition_plans" class="dropdown-item">Nutrition Plans</a>
+                <a href="{% url 'products' %}?category=exercise_nutrition_plans" class="dropdown-item">Excercise &amp;
+                    Nutrition Plans</a>
+            </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="nutritions-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="nutritions-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Nutritions
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="nutritions-link">
                 <a href="{% url 'products' %}?category=protein" class="dropdown-item">Protein</a>
-                <a href="{% url 'products' %}?category=vitamins_minerals" class="dropdown-item">Vitamins &amp; Minerals</a>
+                <a href="{% url 'products' %}?category=vitamins_minerals" class="dropdown-item">Vitamins &amp;
+                    Minerals</a>
                 <a href="{% url 'products' %}?category=amino_acids" class="dropdown-item">Amino Acids</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="clothing-link" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Clothing &amp; Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
