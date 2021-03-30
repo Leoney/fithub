@@ -28,7 +28,7 @@ SECRET_KEY = '=9_=!*b=kfx=74=!o6xsf2bqm^&s+6fvwd(exw4+%r(d9*$u&b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://fithub-app.herokuapp.com/', 'localhost']
 
 
 # Application definition
