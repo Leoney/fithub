@@ -127,8 +127,8 @@ FitHub is an E-commerce website for fitness and nutrition plans, nutrients and a
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   W3C Markup Validator - [Results](https://github.com/Leoney/fithub/tree/main/assets/validation_results/W3C-Markup-Validator.png)
--   W3C CSS Validator - [Results](https://github.com/Leoney/fithub/tree/main/assets/validation_results/W3C-CSS-Validator.png)
+-   W3C Markup Validator - [Results](https://github.com/Leoney/fithub/blob/main/validation_results/W3C-Markup-Validator.png)
+-   W3C CSS Validator - [Results](https://github.com/Leoney/fithub/blob/main/validation_results/W3C-CSS-Validator.png)
 
 
 ## Deployment
