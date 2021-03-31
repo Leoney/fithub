@@ -1,6 +1,6 @@
 <h1 align="center">FitHub Website</h1>
 
-[View the live project here.](https://)
+[View the live project here.](https://https://fithub-app.herokuapp.com/)
 
 FitHub is an E-commerce website for fitness and nutrition plans, nutrients and accessories. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential buyers.
 
@@ -145,7 +145,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 4. Register and log in [Heroku](https://signup.heroku.com/?c=70130000000NeLCAA0&gclid=EAIaIQobChMIvb-6i4-47gIVi-5RCh2mLgpTEAAYASAAEgJSj_D_BwE)
 5. In Heroku click on 'Create  New App'. It has to be with unique name and for region choose the nearest to you one.
 6. In the newly created app, go to Settings -> Config Vars. Here add the variables and theit values:
-| Config Vars      | Value |
+| Config Vars   | Value |
 |:------------- |:------------- |
 | AWS_ACCESS_KEY_ID | your_value | * https://console.aws.amazon.com
 | AWS_SECRET_ACCESS_KEY | your_value | * https://console.aws.amazon.com
